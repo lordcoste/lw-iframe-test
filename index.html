@@ -45,8 +45,8 @@
             console.log("Sending data to https://laserwall.it");
             parent.postMessage(
                 {
-                    param1: $("input[name='param1']").val(),
-                    param2: $("input[name='param2']").val(),
+                    param1: $("#param1").val(),
+                    param2: $("#param2").val(),
                 },
                 "https://laserwall.it");
 
